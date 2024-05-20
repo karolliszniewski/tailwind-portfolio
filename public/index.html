@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-gray-600 bg-gray-50">
+    <div class="grid md:grid-cols-3">
+      <nav>
+        <div>
+          <h1
+            class="font-bold uppercase p-4 border-b border-gray-100 text-primary sm:text-secondary-200"
+          >
+            <a href="/">Karol Liszniewski</a>
+          </h1>
+        </div>
+        <ul>
+          <li>
+            <a href="#" class="font-body"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="#"><span>About</span></a>
+          </li>
+          <li>
+            <a href="#"><span>Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+   
+
+    <main class="px-16 py-6 md:col-span-2">
+      <div class="flex justify-end">
+        <a href="#" class="btn text-primary bg-yellow hover:filter hover:brightness-110">Login in</a>
+        <a href="#" class="btn">Sign up</a>
+      </div>
+
+      <header>
+        <h2 class="text-gray-700 text-6xl font-semibold">Projects</h2>
+        <h3 class="text-2xl font-semibold">
+          Javascript, Laravel, React Native, CSS, HTML, Tailwind
+        </h3>
+      </header>
+
+      <div>
+        <h4 class="font-light mt-12 pb-2 border-b border-gray-200">
+          Latest Projects
+        </h4>
+
+        <div class="grid sm:grid-cols-3 gap-10">
+          <!-- card go here-->
+          <div class="card">
+            <img
+              src="img/cssgrid.webp"
+              alt="Css Grid Generator Image"
+              class="w-full h-32 sm:h-48 object-cover"
+            />
+            <div class="m-4">
+              <span class="font-bold">CSS Grid Generator</span>
+              <span class="block text-gray-500 text-sm">
+                A tool for quickly generating CSS Grid rules without writing complex code manually.
+              </span>
+            </div>
+            <div class="badge">
+              <span>Javascript</span>
+            </div>
+          </div>
+
+          <!-- card go here-->
+          <div class="card">
+            <img
+              src="img/functionalSkills.webp"
+              alt="stew"
+              class="w-full h-32 sm:h-48 object-contain"
+            />
+            <div class="m-4">
+              <span class="font-bold">React Native APP</span>
+              <span class="block text-gray-500 text-sm"> An app for learning functional skills, similar to Duolingo but focused on British functional skills for test preparation.
+              </span>
+            </div>
+            <div class="badge">
+              <span>Javascript</span>
+            </div>
+          </div>
+
+          <!-- card go here-->
+          <div class="card">
+            <img
+              src="img/wordpress2.webp"
+              alt="stew"
+              class="w-full h-32 sm:h-48 object-scale-down"
+            />
+            <div class="m-4">
+              <span class="font-bold">Wordpress Theme</span>
+              <span class="block text-gray-500 text-sm"
+                >WordPress theme for WooCommerce with an integrated blog section, boasting a remarkable speed score of 100 on most pages for both mobile and desktop, alongside SEO optimization utilizing custom plugins.</span
+              >
+            </div>
+            <div class="badge">
+              <span>PHP</span>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="font-light mt-12 pb-4 border-b border-gray-200">
+          Most popular projects
+        </h4>
+        <div>
+          <!-- card go here-->
+        </div>
+
+        <div>
+          <div class="btn">Load more</div>
+        </div>
+      </div>
+    </div>
+    </main>
+  </body>
+</html>
