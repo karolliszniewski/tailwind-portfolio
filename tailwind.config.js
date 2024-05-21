@@ -13,7 +13,10 @@ module.exports = {
       },
       fontFamily:{
         body:['Roboto']
-      }
+      },
+      spacing: {
+        'up-.1rem': '.1rem',  // Dodajemy ujemną wartość spacingu
+      },
     },
   },
   plugins: [],
